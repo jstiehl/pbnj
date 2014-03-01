@@ -1,0 +1,156 @@
+/* CSS resets */
+* {
+-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,time,mark,audio,video {
+    margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent; }
+body { line-height:1;}
+ol,ul { list-style:none; }
+blockquote,q { quotes:none; }
+blockquote:before,blockquote:after,q:before,q:after { content:'';content:none; }
+ins { text-decoration:none; }
+del { text-decoration:line-through; }
+table { border-collapse:collapse;border-spacing:0; }
+/* end resets */
+
+a {
+   text-decoration: none;
+   color: rgb(192,192,192);
+}
+
+a:hover {
+   color: #000;
+}
+
+.wrapper {
+   width:100%;    
+   margin-left:auto;
+   margin-right: auto;
+   margin-top: 0;
+}
+
+h1 {
+   text-align: center;
+   font-size: 2em;
+   text-shadow: 4px 4px 8px white;
+   background: #fff;
+   padding-top:2%;
+   padding-bottom:2%;
+   /*border: 2px solid black;*/
+   box-shadow: 5px 5px 10px rgba(0,0,0,.5);
+   margin:0;
+   /*border-radius: 10px 10px;*/
+}
+
+h1 a {
+   text-decoration: none;
+   color: black;
+}
+
+h1 a:hover{
+   color:white;
+   text-shadow: 4px 4px 10px black;
+}
+
+h2 {
+   font-size: 1.5em;
+   padding-top: 2%;
+   padding-bottom: 2%;
+}
+
+body {
+   background: #FFF;
+   font-family: Helvetica, Arial, sans-serif;
+}
+
+ul {
+   list-style: none;
+   padding-top:1%;
+   padding-bottom: 1%;
+}
+
+li {
+   display: block;
+   padding-top:2%;
+}
+
+.content {
+   background: white;
+   border: 1px solid black;
+   margin-top: 0;
+   padding:0;
+   /*border-radius: 10px 10px;*/
+   box-shadow: 5px 5px 10px black;
+}
+
+.work {
+   width:25%;
+   padding-top: 1%;
+   padding-left: 1%;
+   float:left;
+   margin-left: 2%;
+   margin-top: 5%;
+}
+
+.main {
+   font-size: 1.2em;
+   padding-top: 1%;
+   padding-bottom: 1%;
+   padding-left: 5%;
+   padding-right: 5%;
+   margin-left: 25%;
+   background-color: #f6f8f8;
+   border-left: 1px solid rgb(192,192,192);
+   /*background: rgb(192,192,192);*/
+   /*border-radius:0 10px 10px 0;*/
+}
+
+.main p {
+   line-height: 1.5em;
+   padding-top: 1%;
+   padding-bottom: 1%;
+}
+
+.contact {
+   background-color: #f6f8f8;
+   background-image: url('code.jpg');
+   /*border: 2px solid black;*/
+   margin-top: 0;
+   padding:0;
+   /*border-radius: 10px 10px;*/
+   box-shadow: 5px 5px 10px black;
+}
+
+.contact .main {
+   background-color: rgb(192,192,192);
+   margin-left: 0;
+   margin-right: 20%;
+   border-right: 1px solid black;
+   padding: 0;
+}
+
+.contact h2 {
+   margin-left: 20%;
+}
+
+#myform {padding: 10px;
+         margin-left: 20%;
+         margin-right: 20%;
+         min-width: 500px;}
+         
+.myrow {padding-bottom: 20px;}
+
+.mysubmit {margin-top: 10px;
+           margin-left: 0;}
+
+.labelcol {float: left;
+           width: 100px;
+           text-align: right;
+           padding-right: 10px;}
+
+footer {
+   margin-top: 2%;
+   clear: both;
+   text-align: center;
+}
