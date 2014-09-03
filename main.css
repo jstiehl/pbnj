@@ -24,7 +24,7 @@ a:hover {
 }
 
 .wrapper {
-   width:100%;    
+   width:100%;
    margin-left:auto;
    margin-right: auto;
    margin-top: 0;
@@ -76,32 +76,36 @@ li {
 }
 
 .content {
+	width: 100%;
+	 float: left;
    background: white;
    border: 1px solid black;
    margin-top: 0;
    padding:0;
    /*border-radius: 10px 10px;*/
-   box-shadow: 5px 5px 10px black;
+   /*box-shadow: 5px 5px 10px black;*/
 }
 
 .work {
    width:25%;
    padding-top: 1%;
+	 padding-bottom: 1%;
    padding-left: 1%;
    float:left;
    margin-left: 2%;
-   margin-top: 5%;
+   margin-top: 0;
+	 margin-bottom: 0;
+	 border-right: 1px solid rgb(192,192,192);
 }
 
 .main {
-   font-size: 1.2em;
+	font-size: 1.2em;
    padding-top: 1%;
    padding-bottom: 1%;
    padding-left: 5%;
    padding-right: 5%;
    margin-left: 25%;
-   background-color: #f6f8f8;
-   border-left: 1px solid rgb(192,192,192);
+
    /*background: rgb(192,192,192);*/
    /*border-radius:0 10px 10px 0;*/
 }
@@ -113,6 +117,7 @@ li {
 }
 
 .contact {
+	clear: both;
    background-color: #f6f8f8;
    background-image: url('code.jpg');
    /*border: 2px solid black;*/
@@ -132,13 +137,26 @@ li {
 
 .contact h2 {
    margin-left: 20%;
+	padding-bottom: 0;
+}
+
+.contact ul {
+	margin-left: 22%;
+}
+
+.contact a {
+	color: rgb(0,0,0);
+}
+
+.contact a:hover {
+	color: rgb(255,255,255);
 }
 
 #myform {padding: 10px;
          margin-left: 20%;
          margin-right: 20%;
          min-width: 500px;}
-         
+
 .myrow {padding-bottom: 20px;}
 
 .mysubmit {margin-top: 10px;
